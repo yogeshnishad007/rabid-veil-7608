@@ -1,5 +1,6 @@
 import "./App.css";
 import Dashboard from "./componant/Dashboard";
+import Footer from "./componant/Footer";
 
 import TopBar from "./componant/TopBar";
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <TopBar/>
       <Dashboard/>
+      <Footer/>
     
    
     </div>
