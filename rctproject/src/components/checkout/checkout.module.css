@@ -1,0 +1,71 @@
+.route{
+    border:1px solid grey
+}
+/* login starts from here */
+  .main{
+      width:90%;
+      padding:2%;
+      margin-left:5%;
+
+  }
+  .main>*{
+      padding:1%;
+      color:grey;
+      font-size:20px
+  }
+ 
+  .first{
+      float:left;
+      width:30%;
+    border-right:1px solid #bbb;
+    margin-right:10%
+  }
+  .second{
+      padding:1%;
+      margin-right:20%; 
+  }
+  .email{
+      padding:1%
+  }
+  .email>*{
+      padding:0.5%
+  }
+  input{
+      padding:1%;
+      width:300px
+  }
+  .button{
+      border:none;
+      background-color: #92be4d;
+      padding:1%;
+      color:white;
+      width:130px;
+      margin:1%;
+      font-size:20px
+  }
+  /* Address starts from here */
+  .ship{
+      color: #402e00;
+      font-size: 20px;
+      padding:2%
+  }
+  small{
+     color: #402e00;
+     font-size:13px
+       
+  }
+  .box{
+    width:120px;
+    float:left;
+    margin-top:10px;
+    color:grey
+  }
+  .btn{
+      float:right;
+      min-width:250px;
+           background-color: #92be4d;
+           padding:1%;
+           border:none;
+           color:white
+  }
+ 

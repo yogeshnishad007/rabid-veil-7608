@@ -1,0 +1,86 @@
+.login {
+  width: 100%;
+  height: 120px;
+  background-color: #ededed;
+  padding: 0.5%;
+}
+.regis {
+  margin-top: 0;
+  margin-left: 30%;
+  height: 120px;
+}
+.newBox {
+  display: flex;
+  flex-direction: row;
+}
+.oneBox {
+  height: 100px;
+  margin: 2%;
+  max-width: 170px;
+}
+
+.btnLogin {
+  color: white;
+  background-color: #7ccb55;
+  margin: 5%;
+  border: none;
+  outline: none;
+  padding: 0.8%;
+  font-size: inherit;
+  width: 110px;
+  height: 40px;
+}
+.close {
+  float: right;
+  padding: 1%;
+  margin-left: 55%;
+  margin-top: -100px;
+  border: 1px solid green;
+}
+.inputEmail {
+  border: 1px solid #9f9f9f;
+  padding: 0 0 0 45px;
+  width: 165px;
+  font-size: 14px;
+  padding: 0.8%;
+  margin: 1%;
+  padding: 1.2%;
+}
+.otpEmail {
+  border: 1px solid #9f9f9f;
+  padding: 0 0 0 45px;
+  width: 180px;
+  font-size: 14px;
+  padding: 0.8%;
+  margin: 1%;
+}
+
+.inputBox {
+  margin-top: 0;
+  margin-left: 8%;
+  display: flex;
+  flex-direction: row;
+}
+.otpBox {
+  margin-top: 0;
+  margin-left: 5%;
+}
+.outerBox {
+  width: 170px;
+  background: #ffffff;
+  border: 1px solid #9f9f9f;
+  float: left;
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5%;
+
+  height: 40px;
+}
+.outerBox > .inn {
+  border: none;
+  outline: none;
+  width: 100px;
+  font-size: 16px;
+}

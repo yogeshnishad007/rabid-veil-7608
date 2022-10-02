@@ -1,21 +1,17 @@
 import "./App.css";
-import Dashboard from "./componant/Dashboard";
-import Footer from "./componant/Footer";
-
-import TopBar from "./componant/TopBar";
+import Routes from "./routes/Routes.jsx";
+import TopNav from './components/dashboard/TopNavBar/TopNav'
+// import RouteNav from './components/dashboard/TopNavBar/RouteNav'
 
 
 function App() {
   return (
-    
     <div className="App">
-      <TopBar/>
-      <Dashboard/>
-      <Footer/>
-    
+      <TopNav />
+      <RouteNav/>
+      <Routes />{" "}
    
     </div>
-    
   );
 }
 

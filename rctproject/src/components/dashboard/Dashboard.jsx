@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../componant/dashboard.css";
+import styles from "./dashboard.module.css";
 import Box from "@material-ui/core/Box";
 import Carousel from "react-material-ui-carousel";
 import { makeStyles } from "@material-ui/core/styles";
@@ -9,7 +9,7 @@ import ArrowRightOutlinedIcon from "@material-ui/icons/ArrowRightOutlined";
 import Container from "@material-ui/core/Container";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
-
+import Footer from "../Footer/Footer";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -497,7 +497,7 @@ function Dashboard() {
           </small>
         </Box>
       </Container>
-      
+      <Footer />
     </>
   );
 }

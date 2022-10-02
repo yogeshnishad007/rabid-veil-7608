@@ -1,0 +1,42 @@
+.mrpBorder {
+  border: 0.5px solid rgb(175, 175, 175);
+  padding: 5.9px 5px;
+  color: black;
+}
+.AddBtn {
+  padding: 10px 25px;
+  background: rgb(146, 190, 77);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.AddBtn:hover {
+  background: linear-gradient(
+    to bottom,
+    rgb(89, 121, 38) 5%,
+    rgb(146, 190, 77) 100%
+  );
+  background: rgb(89, 121, 38);
+}
+.inclusive {
+  color: #402e00;
+  font-style: oblique;
+  font-weight: inherit;
+  letter-spacing: 1;
+  font-size: 16px;
+}
+.AddDecBtn {
+  padding: 5px 15px;
+  background: rgb(146, 190, 77);
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.AddDecBtn:hover {
+  background: linear-gradient(
+    to bottom,
+    rgb(89, 121, 38) 5%,
+    rgb(146, 190, 77) 100%
+  );
+  background: rgb(89, 121, 38);
+}

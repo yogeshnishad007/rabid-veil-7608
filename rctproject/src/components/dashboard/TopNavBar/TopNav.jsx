@@ -9,7 +9,10 @@ import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import StarIcon from "@material-ui/icons/Star";
 import styles from "./TopNav.module.css";
 import { Link } from "react-router-dom";
-
+import LoginReg from "./LoginReg";
+import AddProduct from "./../../AddProduct/AddProduct";
+import { logout } from "../../Redux/auth/action";
+import { getBySearch } from "../../Redux/product/action";
 import Badge from "@material-ui/core/Badge";
 import { withStyles } from "@material-ui/core/styles";
 
@@ -100,7 +103,7 @@ const StyledBadge = withStyles((theme) => ({
   },
 }))(Badge);
 
-function TopBar() {
+function TopNav() {
   const classes = useStyles();
   const [val, setVal] = useState("");
   const [register, setRegister] = useState(false);
@@ -153,7 +156,14 @@ function TopBar() {
   return (
     <>
       <Box>
-       
+        {/* <Box className={classes.topDiv}>
+          <Box align="left" classes={{ root: styles.innerDiv }}>
+            Now accepting Wine & Beer orders (Select stores, Mumbai Only).
+            Delivery timings 10.00 AM to 6:00 PM subject to verification of
+            permit and age by delivery person. Age criteria 21+ for mild beer
+            and 25+ for strong beer and wine.
+          </Box>
+        </Box> */}
         <LoginReg
           login={login}
           setLogin={setLogin}
@@ -367,4 +377,4 @@ function TopBar() {
     </>
   );
 }
-export default TopBar;
+export default TopNav;
