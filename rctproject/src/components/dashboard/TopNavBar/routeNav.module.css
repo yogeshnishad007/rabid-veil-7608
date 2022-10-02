@@ -1,0 +1,109 @@
+.routes {
+  width: 97%;
+  text-align: center;
+  border: 1px solid #aaaca9;
+  height: 40px;
+  margin: 1.5%;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 960px) and (min-width: 200px) {
+  .routes {
+    padding-bottom: 2%;
+    display: flex;
+    flex: 1;
+  }
+  .col {
+    flex: 1;
+  }
+  .col1 {
+    flex: 1;
+  }
+  .hoverDiv > span {
+    font-size: 13px;
+  }
+}
+.col {
+  width: 33%;
+  margin-left: 0%;
+  float: left;
+  font-size: 20px;
+  padding: 0.4%;
+  color: #111111;
+  font-weight: normal;
+  cursor: pointer;
+}
+.col1 {
+  background-color: #f3f3f3;
+  width: 23%;
+  margin-left: 0%;
+  float: left;
+  font-size: 20px;
+}
+.col:hover {
+  border-bottom: 2px solid #85b847;
+  background-color: #f3f3f3;
+}
+
+.hoverDiv {
+  position: relative;
+}
+
+.innerHoverDiv {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 330px;
+  z-index: 1;
+}
+
+.innerHoverDiv > div {
+  display: block;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0px;
+  text-align: left;
+  padding: 0.5%;
+  margin-left: 1%;
+}
+
+.innerHoverDiv > div:hover {
+  background-color: #85b847;
+  color: white;
+}
+.box {
+  float: left;
+  width: 90%;
+  text-align: left;
+}
+
+.shop:hover {
+  color: white;
+}
+.chevron > :hover {
+  color: white;
+}
+.hoverDiv:hover .innerHoverDiv {
+  display: block;
+}
+.arrow {
+  color: #c94267;
+  width: 40px;
+}
+.chevron {
+  color: grey;
+}
+
+.shop {
+  text-decoration: none;
+  color: grey;
+  font-family: "CeraPRO-Regular", "CeraPRO-Light";
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.demo {
+  width: 90%;
+  float: left;
+}

@@ -1,0 +1,55 @@
+.heading {
+  margin-top: 1%;
+  background: #578f0d;
+  border-radius: 17px;
+  display: block;
+}
+body {
+  font-family: CeraPRO-Regular;
+}
+.photo {
+  height: 40px;
+  width: 54px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 0;
+  margin-bottom: -18px;
+  margin-left: 40%;
+}
+.main {
+  min-width: 100%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+h2 {
+  color: white;
+  font-size: 21px;
+  text-align: center;
+}
+p {
+  color: #402e00;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+span {
+  color: #b81763;
+  font-size: 18px;
+  line-height: 30px;
+}
+.last {
+  background: #578f0d;
+  height: 40px;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.last > button {
+  border: none;
+  outline: none;
+  padding: 1%;
+  background-color: transparent;
+  color: white;
+}

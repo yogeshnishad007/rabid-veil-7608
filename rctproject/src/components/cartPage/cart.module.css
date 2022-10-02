@@ -1,0 +1,161 @@
+.head {
+  float: left;
+  color: #595959;
+  font-family: "CeraPRO-Regular";
+  font-size: 18px;
+  padding: 25px 10px 10px;
+  width: 60%;
+}
+.flex {
+  clear: both;
+  border-bottom: 2px solid #8ad119;
+}
+
+.emptyCart {
+  text-align: center;
+  padding: 80px;
+}
+
+.emptyCartContinueShopping {
+  margin-left: 42%;
+  margin-top: 30px;
+}
+
+.emptyCartText {
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.display > * {
+  /* flex:4 1 1 0; */
+  flex: auto 1 1 1;
+  min-width: 285px;
+  font-size: 18px;
+  padding-top: 10px;
+  color: #363535;
+  text-align: left;
+}
+.name {
+  width: 785px;
+}
+.name1 {
+  width: 785px;
+}
+.name1 > * {
+  float: left;
+  margin: 1%;
+}
+.main {
+  width: 95%;
+  margin: 1%;
+  padding-bottom: 5%;
+}
+h3 {
+  font-size: 20px;
+}
+.subheading {
+  border-bottom: 1px solid #999999;
+}
+.items {
+  border: 1px solid #e1e1e1;
+  margin: 2px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+}
+.items > * {
+  /* flex:4 1 1 0; */
+  flex: auto 1 1 1;
+  min-width: 285px;
+  font-size: 18px;
+  padding-top: 10px;
+
+  color: #363535;
+  text-align: left;
+  align-items: center;
+}
+
+.close {
+  float: right;
+  margin-right: 10px;
+}
+.shopping {
+  border-bottom: 1px solid #999999;
+}
+.newShopping {
+  border-bottom: 1px solid #999999;
+}
+.shopping > * {
+  float: left;
+  padding: 25px 10px 10px;
+}
+.total {
+  padding: 2%;
+  margin-top: 1%;
+  /* border-bottom:1px solid #999999; */
+}
+.total > * {
+  margin-left: 75%;
+  padding: 1%;
+  color: #666666;
+  height: 22px;
+  overflow: hidden;
+}
+.sub {
+  font-size: 20px;
+}
+.del {
+  font-size: 13px;
+}
+.tot {
+  font-weight: bolder;
+  font-size: 18px;
+}
+@media screen and (max-width: 600px) and (min-width: 200px) {
+  .display {
+    flex-direction: row;
+  }
+  .display > * {
+    min-width: 50px;
+  }
+  .name {
+    width: 100px;
+  }
+  .items {
+    flex-direction: row;
+  }
+  .items > * {
+    min-width: 20px;
+  }
+  .name1 {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 960px) and (min-width: 600px) {
+  .display {
+    flex-direction: row;
+  }
+  .display > * {
+    min-width: 50px;
+  }
+  .name {
+    width: 150px;
+  }
+  .items {
+    flex-direction: row;
+  }
+  .items > * {
+    min-width: 50px;
+  }
+  .name1 {
+    width: 150px;
+  }
+}

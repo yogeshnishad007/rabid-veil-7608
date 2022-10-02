@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import details from "./footer";
+import details from "./FooterLinks";
 
 const FooterContainer = styled.div`
   display: flex;

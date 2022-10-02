@@ -1,0 +1,63 @@
+body {
+  font-family: CeraPRO-Regular;
+}
+.productsDisplay {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkBoxesList {
+  list-style: none;
+  font-size: 15px;
+}
+
+.ScrollBarContainer::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.ScrollBarContainer::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+.ScrollBarContainer::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 2px none #ffffff;
+  border-radius: 5px;
+}
+.ScrollBarContainer::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+.ScrollBarContainer::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+.ScrollBarContainer::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+.ScrollBarContainer::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+.ScrollBarContainer::-webkit-scrollbar-track:active {
+  background: #ab3636;
+}
+.ScrollBarContainer::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.checkBoxesList li:hover {
+  color: rgb(146, 190, 77);
+  cursor: pointer;
+}
+​ .SubCategoryItem {
+  list-style: none;
+}
+
+.SubCategoryItem li:hover {
+  color: rgb(146, 190, 77);
+  cursor: pointer;
+}
+
+.FilterClearAll {
+  display: flex;
+  padding-left: 20px;
+}

@@ -1,0 +1,155 @@
+body {
+  font-family: CeraPRO-Regular;
+}
+
+.innerDiv {
+  padding-top: 9px;
+  padding-left: 2px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.Toplink {
+  padding: 1%;
+  margin: 2%;
+  text-decoration: none;
+  color: grey;
+  font-size: small;
+}
+
+.logo {
+  float: left;
+  padding: 1%;
+  margin-right: 3%;
+}
+.photo {
+  width: 30%;
+  height: 30%;
+}
+.search {
+  background-color: #7ccb55;
+}
+.topRight {
+  float: right;
+  color: grey;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  margin-right: 12px;
+  background: transparent;
+}
+
+.starCart {
+  color: #7ccb55;
+  float: left;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.cart {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-top: 0px;
+}
+
+.hoverUser {
+  position: relative;
+  float: right;
+  color: grey;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  margin-right: 12px;
+  background: transparent;
+}
+.hoverUser:hover .innerHoverUser {
+  display: block;
+}
+.innerHoverUser {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 80px;
+  z-index: 1;
+  margin-left: -30px;
+}
+
+.hoverDivSearch {
+  position: relative;
+}
+
+.innerHoverDivSearch {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 900px;
+  z-index: 1;
+  border: 1px solid green;
+  text-align: center;
+  top: 37px;
+}
+.trend {
+  color: #c94267;
+  font-family: "CeraPRO-Light", "CeraPRO-Regular";
+  font-size: 20px;
+  text-align: center;
+}
+.afterTrend {
+  text-decoration: none;
+  color: black;
+  font-family: "CeraPRO-Regular", "CeraPRO-Light";
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 600px) and (min-width: 200px) {
+  .innerHoverDivSearch {
+    min-width: 350px;
+  }
+}
+
+.innerHoverDivSearch > p {
+  display: block;
+  text-align: center;
+}
+
+.hoverDivSearch:hover .innerHoverDivSearch {
+  display: block;
+}
+.getsea {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #cdcdcd;
+  align-items: center;
+}
+.newLink {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+  text-transform: uppercase;
+}
+
+.getsea > * {
+  flex-shrink: 0;
+  flex-basis: 80px;
+  text-align: left;
+  color: #555555;
+}
+.getsea > *:nth-of-type(2) {
+  flex-basis: 400px;
+  color: black;
+}
+.getsea > *:nth-of-type(6) {
+  flex-basis: 150px;
+}
+.newLink:hover {
+  text-decoration: underline;
+}
+.allPro {
+  padding: 1%;
+  color: white;
+  background: #6fa624;
+}
+.arrow {
+  margin-top: 1.5%;
+}

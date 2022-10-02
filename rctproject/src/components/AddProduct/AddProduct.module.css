@@ -1,0 +1,31 @@
+.AddDecBtn {
+  padding: 7px 15px;
+  background: rgb(146, 190, 77);
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.AddDecBtn:hover {
+  background: linear-gradient(
+    to bottom,
+    rgb(89, 121, 38) 5%,
+    rgb(146, 190, 77) 100%
+  );
+  background: rgb(89, 121, 38);
+}
+
+.AddBtn {
+  padding: 7px 15px;
+  background: rgb(146, 190, 77);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.AddBtn:hover {
+  background: linear-gradient(
+    to bottom,
+    rgb(89, 121, 38) 5%,
+    rgb(146, 190, 77) 100%
+  );
+  background: rgb(89, 121, 38);
+}
